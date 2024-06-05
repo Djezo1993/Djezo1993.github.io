@@ -178,19 +178,19 @@ form button:hover {
     .social-links img {
         height: 25px;
     }
-        /* Crop image on mobile */
+    /* Crop image on mobile */
     .cropped-image {
-        width: 45%;
-        height: 200px; /* Hauteur ajustable selon besoin */
+        width: 80%;
+        height: 300px; /* Hauteur ajustable selon besoin */
         overflow: hidden;
         position: relative;
     }
+
     .cropped-image img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: auto;
-        height: 100%;
-        transform: translate(-50%, -50%);
-    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    transform: translate(-50%, -50%);
 }
