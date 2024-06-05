@@ -117,10 +117,10 @@ h2 {
         height: 2px; /* Épaisseur du trait */
         background-color: #a30000; /* Couleur du trait */
 }
-image {
+.image-container {
         display: block;
         margin: 0 auto;
-        width: 100%
+        width: 100%;
     }
 
 p {
