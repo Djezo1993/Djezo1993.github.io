@@ -174,7 +174,7 @@ form button:hover {
 @media (max-width: 768px) {
    nav ul {
         flex-direction: column;
-        gap: 5px; /* Réduit encore l'espace entre les liens pour les petits écrans */
+        gap: 3px; /* Réduit encore l'espace entre les liens pour les petits écrans */
     }
 
     .social-links img {
