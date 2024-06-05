@@ -185,5 +185,12 @@ form button:hover {
         overflow: hidden;
         position: relative;
     }
-
+    .cropped-image img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        transform: translate(-50%, -50%);
+    }
 }
