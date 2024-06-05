@@ -172,8 +172,9 @@ form button:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    nav ul {
+   nav ul {
         flex-direction: column;
+        gap: 5px; /* Réduit encore l'espace entre les liens pour les petits écrans */
     }
 
     .social-links img {
