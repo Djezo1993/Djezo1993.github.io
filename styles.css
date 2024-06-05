@@ -117,6 +117,9 @@ h2 {
         height: 2px; /* Épaisseur du trait */
         background-color: #a30000; /* Couleur du trait */
 }
+image {
+        display: block;
+    }
 
 p {
     font-family: 'Lato', sans-serif;
