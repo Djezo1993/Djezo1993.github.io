@@ -180,7 +180,7 @@ form button:hover {
     }
         /* Crop image on mobile */
     .cropped-image {
-        width: 100%;
+        width: 45%;
         height: 200px; /* Hauteur ajustable selon besoin */
         overflow: hidden;
         position: relative;
