@@ -40,6 +40,7 @@ nav ul li a {
     font-weight: 800;
     font-style: italic;
     position: relative;
+    padding: 5px 0;
 }
 
 nav ul li a::after {
