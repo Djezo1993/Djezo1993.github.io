@@ -17,6 +17,10 @@ header {
     color: #FFFFFF;
 }
 
+.logo {
+    position: relative;
+}
+
 .logo img {
     height: 50px;
     transition: opacity 0.3s ease;
