@@ -10,11 +10,16 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Assure la distribution de l'espace entre le logo et la navigation */
     align-items: center;
     padding: 10px 20px;
     background-color: #114BBF;
     color: #FFFFFF;
+    position: fixed; /* Rendre le header fixe */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
 }
 
 .logo {
@@ -82,6 +87,7 @@ section {
         font-style: italic;
         font-size: 2.5em;
         color: #114BBF;
+        clear: both;
     }
     
     h1 a {
@@ -136,8 +142,13 @@ p {
     font-family: 'Lato', sans-serif;
     font-size: 1em; /* Taille réduite pour le corps de texte */
     color: #333333;
+    text-align: justify;
 }
 
+.imaportrait {
+    float: right;
+    margin: 3px;
+}
 footer {
     background-color: #114BBF;
     color: #FFFFFF;
