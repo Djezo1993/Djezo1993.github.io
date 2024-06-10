@@ -217,3 +217,12 @@ form button:hover {
     height: 100%;
     transform: translate(0%, 0%);
 }
+main {
+    padding: 120px 10px 10px 10px; /* Ajoute un padding top pour compenser le header fixe */
+}
+.imaportrait {
+width: 100%;
+overflow: hidden;
+position: relative;
+padding: 3px;
+}
