@@ -143,7 +143,11 @@ p {
 
 .imaportrait {
     float: right;
-    margin: 3px;
+    margin: 50px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    padding: 3px;
 }
 footer {
     background-color: #114BBF;
@@ -219,10 +223,4 @@ form button:hover {
 }
 main {
     padding: 120px 10px 10px 10px; /* Ajoute un padding top pour compenser le header fixe */
-}
-.imaportrait {
-width: 100%;
-overflow: hidden;
-position: relative;
-padding: 3px;
 }
